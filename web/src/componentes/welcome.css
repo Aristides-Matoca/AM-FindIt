@@ -1,0 +1,96 @@
+.Well{
+    display: flex;
+    justify-content: center;
+}
+.welcome{
+    width: 550px;
+    border-radius: 8px;
+    align-items: center;
+    color: white;
+    background-color: #DABC1F;
+    padding: 50px;
+}
+
+#h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.entrar{
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 50px;
+}
+
+.entrar:hover{
+    color: black;
+    background-color: #DABC1F;
+}
+
+.criar{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.ll:link {
+    text-decoration: none;
+    color: white;
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 10px 10px;
+    justify-content: center;
+    transition: color 300ms ease-in-out, background-color 300ms ease-in-out;
+}
+
+.ll:hover{
+    color: black;
+    background-color: #DABC1F;
+}
+
+.esqS{
+    display: inline-flex;
+    margin-left: 1px;
+
+}
+
+div.input-single{
+    position: relative;
+    width: 100%;
+    margin: 30px 0;
+}
+
+div.input-single label{
+    position: absolute;
+    font-size: 16px;
+    left: 0;
+    bottom: 5px;
+    color: black;
+    cursor: text;
+    transition: 0.5s ease-in-out;
+}
+
+div.input-single #mmm{
+    width: 100%;
+    background-color: #DABC1F;
+    padding: 5px;
+    border: 0;
+    border-bottom: 2px solid #fff;
+    outline: 0;
+    font-size: 16px;
+}
+
+div.input-single #mmm:focus, 
+div.input-single #mmm:valid{
+    border-bottom: 2px solid;
+}
+
+div.input-single #mmm:focus ~ label, 
+div.input-single #mmm:valid ~ label{
+    transform: translateY(-24px);
+    font-size: 12px;
+    color: black;
+}

@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+}
+
+.cabecalho{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.cabecalho{
+  margin-top: -55px;
+  width: 100%;
+  height: 37px;
+  color: white;
+  background-color: #DABC1F;
+}
+
+.cabecalho img{
+  margin-top: -45px;
+  margin-left: 1px;
+  width: 70px;
+  height: 36px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.esq>p{
+  color: white;
+}
+
+h3{
+  margin-right: 20px;
+}

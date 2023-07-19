@@ -1,0 +1,117 @@
+#box{
+    box-sizing: border-box;
+    position: absolute;
+    width: 660px;
+    height: 470px;
+    left: 375px;
+    top: 55px;
+    border: 1px solid #DABC1F;
+    border-radius: 5px;
+}
+
+div>p{
+    position: absolute;
+    width: 630px;
+    left: 7px;
+    top: 12px;
+    font-size: 20px;
+    line-height: 15px;
+    text-align: justify;
+}
+
+div>p>a{
+    position: absolute;
+    margin-left: 223px;
+    top: 75px;
+    text-decoration: none;
+}
+
+#media{
+    position: absolute;
+    width: 660px;
+    height: 100px;
+    left: 0px;
+    top: 115px;
+    border: none;
+}
+
+#media>p{
+    position: absolute;
+    width: 350px;
+    left: 170px;
+    top: 10px;
+    font-size: 24px;
+    line-height: 15px;
+}
+
+#FB{
+    position: absolute;
+    width: 114.23px;
+    height: 45px;
+    left: 10px;
+    top: 40px;
+    border-radius: 7px;
+}
+
+#TT{
+    position: absolute;
+    width: 114.23px;
+    height: 45px;
+    left: 185px;
+    top: 40px;
+    border-radius: 7px;
+}
+
+#IG{
+    position: absolute;
+    width: 114.23px;
+    height: 45px;
+    left: 360px;
+    top: 40px;
+    border-radius: 7px;
+}
+
+#LI{
+    position: absolute;
+    width: 114.23px;
+    height: 45px;
+    left: 530px;
+    top: 40px;
+    border-radius: 7px;
+}
+
+#app1{
+    position: absolute;
+    width: 660px;
+    height: 100px;
+    top: 100px;
+    left: 10px;
+    border: none;
+}
+
+#app1>p{
+    position: absolute;
+    width: 150px;
+    left: 273px;
+    top: 10px;
+    font-size: 24px;
+    line-height: 15px;
+}
+
+#AS{
+    position: absolute;
+    width: 114.23px;
+    height: 45px;
+    left: 155px;
+    top: 40px;
+    border-radius: 7px;
+}
+
+#PS{
+    position: absolute;
+    width: 114.23px;
+    height: 45px;
+    left: 390px;
+    top: 40px;
+    border-radius: 7px;
+}

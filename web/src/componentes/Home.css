@@ -1,0 +1,394 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+}
+
+header menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+header>menu{
+    position: absolute;
+    width: 100%;
+    height: 37px;
+    left: 0px;
+    top: 0px;
+    color: white;
+    background-color: #DABC1F;
+}
+
+div nav{
+    margin-right: 20px;
+}
+
+#img1{
+    margin-left: 15px;
+}
+
+div nav ul{
+    display: flex;
+
+}
+
+div nav ul a{
+    margin: 15px;
+    font-size: 15px;
+}
+
+#conta{
+    margin-left: 25px;
+}
+
+div nav ul a:hover{
+    border-bottom: 2px solid white;
+    font-size: 15.2px;
+}
+
+header>div{
+    box-sizing: border-box;
+    position: absolute;
+    width: 956px;
+    height: 36px;
+    left: 214px;
+    top: 31px;
+    background: #D9D9D9;
+    border-radius: 15px;
+}
+
+#text{
+    position: absolute;
+    width: 870px;
+    height: 30px;
+    left: 15px;
+    top: 5px;
+    font-size: 17px;
+    background: #D9D9D9;
+    border: none;
+}
+
+#btn{
+    position: absolute;
+    width: 22px;
+    height: 21px;
+    left: 910px;
+    top: 8px;
+}
+
+#btn>img{
+    width: 22px;
+    height: 21px;
+}
+
+#perdidos{
+    box-sizing: border-box;
+    position: absolute;
+    width: 95.5%;
+    height: 310px;
+    left: 2.5%;
+    top: 123px;
+    background: #D9D9D9;
+    border-radius: 5px;
+}
+
+#art-perdidos{
+    margin-right: 1160px;
+    margin-top: 310px;
+    font-size: 17px;
+    width: 120px;
+}
+
+#doc-perdidos{
+    box-sizing: border-box;
+    position: absolute;
+    width: 31%;
+    height: 260px;
+    left: 2.2%;
+    top: -35px;
+    border: 0.5px solid #DABC1F;
+    border-radius: 5px;
+}
+
+#doc-perdidos>img{
+    width: 99.9%;
+    height: 257px; 
+    border-radius: 5px;
+}
+
+#doc-perdidos>p{
+    position: absolute;
+    left: 5px;
+    top: 260px;
+    font-size: 16px;
+}
+
+#obj-perdidos{
+    box-sizing: border-box;
+    position: absolute;
+    width: 31%;
+    height: 260px;
+    left: 34.65%;
+    top: -35px;
+    border: 0.5px solid #DABC1F;
+    border-radius: 5px;
+}
+
+#obj-perdidos>img{
+    width: 99.9%;
+    height: 257px; 
+    border-radius: 5px;
+}
+
+#obj-perdidos>p{
+    position: absolute;
+    left: 5px;
+    top: 260px;
+    font-size: 16px;
+}
+
+#otr-perdido{
+    box-sizing: border-box;
+    position: absolute;
+    width: 31%;;
+    height: 260px;
+    left: 67%;
+    top: -35px;
+    border: 0.5px solid #DABC1F;
+    border-radius: 5px;
+}
+
+#otr-perdido>img{
+    width: 99.9%;
+    height: 257px;
+    border-radius: 5px;
+}
+
+#otr-perdido>p{
+    width: 100px;
+    margin-left: 2px;
+    margin-top: 248px;
+    font-size: 16px;
+}
+
+#achados{
+    box-sizing: border-box;
+    position: absolute;
+    width: 95.5%;
+    height: 310px;
+    left: 2.5%;
+    top: 480px;
+    background: #D9D9D9;
+    border-radius: 5px;
+}
+
+#art-achados{
+    margin-right: 1160px;
+    margin-top: 310px;
+    font-size: 17px;
+    width: 120px;
+}
+
+#doc-achados{
+    box-sizing: border-box;
+    position: absolute;
+    width: 31%;
+    height: 260px;
+    left: 2.2%;
+    top: -35px;
+    border: 0.5px solid #DABC1F;
+    border-radius: 5px;
+}
+
+#doc-achados>img{
+    width: 99.9%;
+    height: 257px; 
+    border-radius: 5px;
+}
+
+#doc-achados>p{
+    position: absolute;
+    left: 5px;
+    top: 260px;
+    font-size: 16px;
+}
+
+#obj-achados{
+    box-sizing: border-box;
+    position: absolute;
+    width: 31%;
+    height: 260px;
+    left: 34.65%;
+    top: -35px;
+    border: 0.5px solid #DABC1F;
+    border-radius: 5px;
+}
+
+#obj-achados>img{
+    width: 99.9%;
+    height: 257px; 
+    border-radius: 5px;
+}
+
+#obj-achados>p{
+    position: absolute;
+    left: 5px;
+    top: 260px;
+    font-size: 16px;
+}
+
+#otr-achados{
+    box-sizing: border-box;
+    position: absolute;
+    width: 31%;
+    height: 260px;
+    left: 67%;
+    top: -35px;
+    border: 0.5px solid #DABC1F;
+    border-radius: 5px;
+}
+
+#otr-achados>img{
+    width: 99.9%;
+    height: 257px; 
+    border-radius: 5px;
+}
+
+#otr-achados>p{
+    width: 100px;
+    margin-left: 2px;
+    margin-top: 248px;
+    font-size: 16px;
+}
+
+#encontrados{
+    box-sizing: border-box;
+    position: absolute;
+    width: 95.5%;
+    height: 310px;
+    left: 2.5%;
+    top: 837px;
+    background: #D9D9D9;
+    border-radius: 5px;
+}
+
+#art-devolvidos{
+    margin-right: 1160px;
+    margin-top: 28px;
+    font-size: 17px;
+    width: 140px;
+}
+
+#doc-encontrados{
+    box-sizing: border-box;
+    position: absolute;
+    width: 31%;
+    height: 260px;
+    left: 2.2%;
+    top: -35px;
+    border: 0.5px solid #DABC1F;
+    border-radius: 5px;
+}
+
+#doc-encontrados>img{
+    width: 99.9%;
+    height: 257px; 
+    border-radius: 5px;
+}
+
+#doc-encontrados>p{
+    position: absolute;
+    left: 5px;
+    top: 260px;
+    font-size: 16px;
+}
+
+#obj-encontrados{
+    box-sizing: border-box;
+    position: absolute;
+    width: 31%;
+    height: 260px;
+    left: 34.65%;
+    top: -35px;
+    border: 0.5px solid #DABC1F;
+    border-radius: 5px;
+}
+
+#obj-encontrados>img{
+    width: 99.9%;
+    height: 257px; 
+    border-radius: 5px;
+}
+
+#obj-encontrados>p{
+    position: absolute;
+    left: 5px;
+    top: 260px;
+    font-size: 16px;
+}
+
+#otr-encontrados{
+    box-sizing: border-box;
+    width: 31%;
+    height: 260px;
+    margin-left: 67%;;
+    margin-top: 20px;
+    border: 0.5px solid #DABC1F;
+    border-radius: 5px;
+}
+
+#otr-encontrados>img{
+    width: 99.9%;
+    height: 257px; 
+    border-radius: 5px;
+}
+
+#otr-encontrados>p{
+    width: 100px;
+    margin-left: 67%;
+    margin-top: 268px;
+    font-size: 16px;
+}
+
+footer{
+    height: 110px;
+    margin-top: 1200px;
+    background-color: #DABC1F;
+}
+
+#app0{
+    position: absolute;
+    width: 660px;
+    height: 100px;
+    left: 27%;
+    top: 1205px;
+}
+
+#app0>p{
+    position: absolute;
+    width: 150px;
+    left: 287px;
+    top: 10px;
+    font-size: 17px;
+}
+
+#AS{
+    position: absolute;
+    width: 114.23px;
+    height: 45px;
+    left: 155px;
+    top: 40px;
+    border-radius: 7px;
+}
+
+#PS{
+    position: absolute;
+    width: 114.23px;
+    height: 45px;
+    left: 390px;
+    top: 40px;
+    border-radius: 7px;
+}

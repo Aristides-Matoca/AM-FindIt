@@ -1,0 +1,234 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+div{
+    margin-top: 55px;
+}
+
+.picture2{
+    width: 370px;
+    height: 230px;
+    background-color: #fff;
+    color: #DABC1F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed black;
+    cursor: pointer;
+    font-family: sans-serif;
+    transition: color 300ms ease-in-out, background-color 300ms ease-in-out;
+}
+
+.picture2:hover{
+    color: black;
+    background-color: #ccc;
+}
+
+#img{
+    position: absolute;
+    left: 436px;
+    top: 100px;
+    font-size: 20px;
+    line-height: 15px;
+}
+
+#descriction{
+    position: absolute;
+    left: 855px;
+    top: 100px;
+    font-size: 20px;
+    line-height: 15px;
+}
+
+#form{
+    position: absolute;
+    margin-top: 45px;
+    left: 276px;
+}
+
+#lost-found{
+    position: absolute;
+    left: 566px;
+    top: 45px;
+    font-size: 16px;
+    line-height: 15px;
+}
+
+#radio1{
+position: absolute;
+left: 431px;
+top: 87px;
+font-size: 16px;
+line-height: 15px;
+}
+
+#radio1-1{
+    position: absolute;
+    left: 448px;
+    top: 87px;
+    font-size: 16px;
+    line-height: 15px;
+}
+
+#radio2{
+    position: absolute;
+    left: 753px;
+    top: 87px;
+    font-size: 16px;
+    line-height: 15px;
+}
+    
+#radio2-1{
+    position: absolute;
+    left: 770px;
+    top: 87px;
+    font-size: 16px;
+    line-height: 15px;
+}
+
+#label1{
+    position: absolute;
+    width: 95px;
+    left: 396px;
+    top: 123px;
+    font-size: 16px;
+    line-height: 15px;
+}
+
+#in1{
+    box-sizing: border-box;
+    border: none;
+    position: absolute;
+    width: 471px;
+    height: 25px;
+    left: 396px;
+    top: 143px;
+    border-bottom: 1.5px solid #000000;
+    outline: none;
+}
+
+#label2{
+    position: absolute;
+    width: 200px;
+    left: 396px;
+    top: 186px;
+    font-size: 16px;
+    line-height: 15px;
+}
+
+#in2{
+    box-sizing: border-box;
+    border: none;
+    position: absolute;
+    width: 471px;
+    height: 25px;
+    left: 396px;
+    top: 206px;
+    border-bottom: 1.5px solid #000000;
+    outline: none;
+}
+
+#label3{
+    position: absolute;
+    width: 130px;
+    left: 396px;
+    top: 249px;
+    font-size: 16px;
+    line-height: 15px;
+}
+
+#in3{
+    box-sizing: border-box;
+    border: none;
+    position: absolute;
+    width: 471px;
+    height: 25px;
+    left: 396px;
+    top: 269px;
+    border-bottom: 1.5px solid #000000;
+    outline: none;
+}
+
+#foto{
+    box-sizing: border-box;
+    position: absolute;
+    width: 378px;
+    height: 213px;
+    top: 82px;
+    background: #D9D9D9;
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+}
+
+#contact{
+    position: absolute;
+    width: 189px;
+    left: 310px;
+    top: 337px;
+    font-size: 20px;
+    line-height: 15px;
+}
+
+#label4{
+    position: absolute;
+    top: 372px;
+    font-size: 16px;
+    line-height: 15px;
+}
+
+#in4{
+    box-sizing: border-box;
+    border: none;
+    position: absolute;
+    width: 378px;
+    height: 25px;
+    top: 392px;
+    border-bottom: 1.5px solid #000000;
+    outline: none;
+}
+
+#label5{
+    position: absolute;
+    left: 396px;
+    top: 372px;
+    font-size: 16px;
+    line-height: 15px;
+}
+
+#in5{
+    box-sizing: border-box;
+    border: none;
+    position: absolute;
+    width: 471px;
+    height: 25px;
+    left: 396px;
+    top: 392px;
+    border-bottom: 1.5px solid #000000;
+    outline: none;
+}
+
+#btCri{
+    box-sizing: border-box;
+    position: absolute;
+    width: 543px;
+    height: 36px;
+    left: 370px;
+    top: 650px;
+    background: #DABC1F;
+    color: #fff;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    font-size: 16px;
+    transition: color 300ms ease-in-out, background-color 300ms ease-in-out;
+}
+
+#btCri:hover{
+    color: black;
+    cursor: pointer;
+}

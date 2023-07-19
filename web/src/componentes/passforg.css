@@ -1,0 +1,31 @@
+.passe{
+    border-radius: 8px;
+    align-items: center;
+    color: white;
+    background-color: #DABC1F;
+    width: 550px;
+    padding: 50px;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enquete{
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: black;
+}
